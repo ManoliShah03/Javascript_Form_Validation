@@ -8,19 +8,19 @@ function validateForm() {
     }
     if(!(regName.test(fname)))
     {
-        alert('Invalid first name given');
+        alert('Invalid First Name given');
         return false;
     }
 
     var regName = /^[A-Za-z]+$/;
     var lname = document.forms["myform"]["lname"].value;
     if(lname == "" || lname==null){
-        alert('last Name cannot be empty');
+        alert('Last Name cannot be empty');
         return false;
     }
     if(!(regName.test(lname)))
     {
-        alert('Invalid last name given');
+        alert('Invalid Last Name given');
         return false;
     }
     
